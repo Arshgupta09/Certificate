@@ -1,6 +1,6 @@
 <?php
-$days =1;
-$path ="odt/base";
+$days =7;
+$path ="odt/base/";
 
 // Open the directory
 if ($handle = opendir($path))
