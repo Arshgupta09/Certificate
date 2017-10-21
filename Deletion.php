@@ -15,7 +15,7 @@ if ($handle = opendir($path))
             if (filemtime($path.$file) < ( time() - ( $days * 24 * 60 * 60 ) ) )
             {
                 // Do the deletion
-                unlink($path.$file.odt);
+                unlink($path.$file);
             }
         }
     }
