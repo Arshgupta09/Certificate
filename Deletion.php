@@ -1,5 +1,5 @@
 <?php
-$days =0;
+$days =7;
 $path ="odt/base/";
 
 // Open the directory
